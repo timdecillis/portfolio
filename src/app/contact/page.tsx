@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Contact from "../components/Contact";
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <h1>CONTACT PAGE</h1>
+      <Contact/>
       <Link href="/">Home</Link>
       <Link href="/projects">Projects</Link>
     </main>
