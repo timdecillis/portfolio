@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div>
-          <Image width={500} height={500} src={"/Sibley (1).jpg"} />
+          <Image alt='a picture of a white man in a maroon shirt' width={500} height={500} src={"/Sibley (1).jpg"} />
           {children}
         </div>
       </body>
