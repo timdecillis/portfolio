@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const identities = ["software engineer", "musician", "cat dad"];
+const identities = ["software engineer", "musician", "teacher"];
 
 export const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,13 +10,13 @@ export const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % identities.length);
-    }, 3500);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <section
-      className="relative w-full h-[80vh] overflow-hidden bg-cover bg-center"
+      className="relative w-screen h-screen overflow-hidden bg-cover bg-center -mx-6 md:-mx-16 lg:-mx-32 xl:-mx-56"
       style={{ backgroundImage: "url(/cymbal.gif)" }}
     >
       <div className="absolute inset-0 bg-[#1a3a4a]/40" />

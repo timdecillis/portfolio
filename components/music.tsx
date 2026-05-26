@@ -25,9 +25,9 @@ const projects = [
 
 export const Music = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-16 px-16 py-20">
+    <div className="flex flex-col md:flex-row gap-16 py-20">
       <div className="md:w-1/2 flex flex-col items-center">
-        <p className="text-2xl md:text-3xl font-bold text-center leading-relaxed mb-8">
+        <p className="text-lg leading-relaxed mb-8">
           With a career spanning Las Vegas, Chicago, and all parts of the San
           Francisco Bay area, I have had the pleasure of playing all manner of
           music with a diverse array of inspiring artists.

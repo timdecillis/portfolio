@@ -10,13 +10,18 @@ const teachingExperience = [
     dates: "2018-2023",
   },
   { school: "Music N' Beyond", location: "Dublin, CA", dates: "2014-2023" },
+  {
+    school: "Independant Instructor",
+    location: "Various Locations",
+    dates: "2007-2026",
+  },
 ];
 
 export const Teaching = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-16 px-16 py-20">
+    <div className="flex flex-col md:flex-row gap-16 py-20">
       <div className="md:w-1/2">
-        <p className="text-2xl md:text-3xl font-bold leading-relaxed">
+        <p className="text-lg leading-relaxed">
           During my time as a music teacher, I have honed my adept communication
           and interpersonal abilities, enabling me to effectively convey complex
           technical concepts to any audience. I foster an inclusive learning

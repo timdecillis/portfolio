@@ -90,7 +90,7 @@ const BulletText = ({ point }: { point: BulletPoint }) => (
 
 export const Work = () => {
   return (
-    <div className="px-16 py-20">
+    <div className="py-20">
       <div className="flex flex-col md:flex-row gap-16 mb-20">
         <div className="md:w-1/3">
           <h1 className="text-5xl font-bold">Experience</h1>
