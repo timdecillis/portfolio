@@ -25,7 +25,6 @@ export const Home = () => {
           Hello! I&apos;m a
           <br />
           <span className="block mt-2">{identities[currentIndex]}</span>
-          <br />
           <span className="block mt-2">based in Oakland,</span>
           <span className="block">California.</span>
         </h1>
