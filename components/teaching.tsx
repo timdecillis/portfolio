@@ -21,7 +21,7 @@ export const Teaching = () => {
   return (
     <div className="flex flex-col md:flex-row gap-16 py-20">
       <div className="md:w-1/2">
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-center md:text-left">
           During my time as a music teacher, I have honed my adept communication
           and interpersonal abilities, enabling me to effectively convey complex
           technical concepts to any audience. I foster an inclusive learning
@@ -31,11 +31,13 @@ export const Teaching = () => {
         </p>
       </div>
       <div className="md:w-1/2 flex flex-col items-center">
-        <h2 className="text-4xl font-bold mb-8">Teaching Experience</h2>
-        <ul className="flex flex-col items-center gap-2 text-lg mb-8">
+        <h2 className="text-4xl font-bold mb-8 text-center md:text-left">Teaching Experience</h2>
+        <ul className="flex flex-col items-center gap-6 text-lg mb-8">
           {teachingExperience.map((exp) => (
-            <li key={exp.school}>
-              {exp.school} | {exp.location} | {exp.dates}
+            <li key={exp.school} className="text-center">
+              <div className="text-lg font-bold">{exp.school}</div>
+              <div>{exp.location}</div>
+              <div>{exp.dates}</div>
             </li>
           ))}
         </ul>

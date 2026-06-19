@@ -45,7 +45,7 @@ export const Header = () => {
 
       {/* Mobile hamburger button */}
       <button
-        className="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5"
+        className="md:hidden ml-auto flex flex-col justify-center items-center w-10 h-10 gap-1.5"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
       >

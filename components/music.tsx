@@ -27,7 +27,7 @@ export const Music = () => {
   return (
     <div className="flex flex-col md:flex-row gap-16 py-20">
       <div className="md:w-1/2 flex flex-col items-center">
-        <p className="text-lg leading-relaxed mb-8">
+        <p className="text-lg leading-relaxed mb-8 text-center md:text-left">
           With a career spanning Las Vegas, Chicago, and all parts of the San
           Francisco Bay area, I have had the pleasure of playing all manner of
           music with a diverse array of inspiring artists.
@@ -47,7 +47,7 @@ export const Music = () => {
             <li key={project.name}>
               <Link
                 href={project.href}
-                className="underline underline-offset-4"
+                className="underline underline-offset-4 text-center block"
               >
                 {project.name}
               </Link>

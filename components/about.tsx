@@ -4,7 +4,7 @@ import Link from "next/link";
 export const About = () => {
   return (
     <div className="flex flex-col md:flex-row gap-16 py-20">
-      <div className="md:w-1/2 text-lg leading-relaxed flex flex-col justify-start">
+      <div className="md:w-1/2 text-lg leading-relaxed flex flex-col justify-start text-center md:text-left items-center md:items-start">
         <p>
           I&apos;ve dedicated my life to pursuing my flow state, whether I&apos;m
           improvising on a jazz standard or coding a new app; I thrive on that
